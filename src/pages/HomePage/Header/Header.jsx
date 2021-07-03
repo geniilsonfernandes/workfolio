@@ -8,8 +8,8 @@ const Header = () => {
       <header className={styles.header}>
         <div className={styles.header__content}>
           <h1>
-            Hey, I'm Ge Front End <br />
-            <span> {`<`}</span>Developer <span>{`/>`}</span>.
+            Ola! me chamo <br />
+            <span> {`<`}</span>Genilson <span>{`/>`}</span>.
           </h1>
           <p>Sou um Designer-UI/Front end criativo e corajoso para novos desafios.</p>
         </div>
