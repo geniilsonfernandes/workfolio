@@ -1,0 +1,27 @@
+.card {
+    cursor: pointer;
+    background: var(--color-btn);
+    border-radius: var(--border-radios);
+
+    transition: all ease-in-out 300ms;
+
+    padding: 32px;
+}
+.card:hover {
+opacity: 0.8;
+}
+.card h1 {
+    font-weight: 500;
+    font-size: 24px;
+
+    color: var(--color-text-primary);
+}
+.card p {
+    margin-top: 16px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: var(--color-text-secundary);
+}

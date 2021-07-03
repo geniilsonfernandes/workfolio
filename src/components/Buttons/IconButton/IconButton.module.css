@@ -1,0 +1,19 @@
+.btn {
+    outline: none;
+    border: none;
+
+    width: 40px;
+    height: 40px;
+
+    background: var(--color-btn);
+    border-radius: var(--border-radios);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+.btn:hover {
+    background: var(--color-btn-hover);
+}

@@ -1,0 +1,24 @@
+:root {
+    /* colors */
+    --color-bg: #0d0e10;
+    --color-primary: #0071f1;
+    --color-primary-hover: #10967d;
+    --color-wait: #3a3a3a;
+    --color-text-primary: #ebebeb;
+    --color-text-secundary: #ACB1BD;
+    --font-size-text: 14px;
+    --border-radios:4px;
+
+    --color-btn:#22262f;
+    --color-btn-hover:#2e323d;
+}
+
+[data-theme="dark"] {
+    --color-text-primary: #ebebeb;
+    --color-text-secundary: #d1d1d1;
+}
+
+[data-theme="light"] {
+    --color-text-primary: #ff0000;
+    --color-text-secundary: #f10000;
+}

@@ -1,0 +1,53 @@
+.btn {
+    display: flex;
+}
+
+.icon__group {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 16px;
+    margin-right: 24px;
+    position: relative;
+}
+.icon__group::after {
+    content: "";
+    width: 1px;
+    height: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -12px;
+    position: absolute;
+    background: #3a3a3a;
+}
+
+
+.btn__donwload svg {
+    margin-right: 12px;
+}
+
+.colorStyle {
+    fill: var(--color-text-primary);
+}
+
+.btn__donwload button {
+    text-decoration: none;
+    cursor: pointer;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+
+    color: var(--color-text-primary);
+
+    height: 40px;
+    padding: 0 24px;
+    border: none;
+    outline: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #107764;
+}

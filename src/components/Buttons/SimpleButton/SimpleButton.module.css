@@ -1,0 +1,19 @@
+.btn {
+    outline: none;
+    border: none;
+    height: 40px;
+    padding: 0 16px;
+    border-radius: var(--border-radios);
+    background: #fff;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+
+.btn:hover {
+    background: var(--color-primary);
+    color: #fff;
+}

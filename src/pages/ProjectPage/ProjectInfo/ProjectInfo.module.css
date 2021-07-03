@@ -1,0 +1,91 @@
+.project {
+    display: flex;
+    padding: 0 8px;
+    flex-flow: wrap;
+    animation: into 200ms ease-in;
+    position: relative;
+}
+
+@keyframes into {
+    from {
+        top: -10px;
+        opacity: 0;
+    }
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+.left {
+    flex: 0 0 70%;
+    padding-right: 100px;
+}
+.right {
+    flex: 0 0 30%;
+}
+
+.project__info {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 22px;
+}
+
+.overview h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+
+    color: var(--color-text-primary);
+}
+
+.overview p {
+    margin-top: 14px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--color-text-secundary);
+}
+
+.project__tags {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 22px;
+}
+.tag h3 {
+    font-weight: bold;
+    font-size: 15px;
+
+    color: var(--color-text-primary);
+}
+.tag p {
+    font-weight: 400;
+    font-size: 14px;
+    max-width: 80%;
+    margin-top: 10px;
+
+    color: var(--color-text-secundary);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 38px 0;
+}
+
+@media screen and (max-width: 746px) {
+    .left {
+        flex: 0 0 100%;
+        padding-right: 0;
+    }
+    .right {
+        margin-top: 32px;
+        flex: 0 0 100%;
+    }
+    .overview h1,
+    .overview p,
+    .tag h3,
+    .tag p {
+        text-align: center;
+        max-width: 100%;
+    }
+}

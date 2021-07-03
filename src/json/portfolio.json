@@ -1,0 +1,15 @@
+[
+  {
+    "cover_photo":"dfsfsdfs",
+    "content_photo":"weqeweq",
+    "name": "Komegashi Too",
+    "sub_name":"dsadadas",
+    "tags": [
+      { "tag__name": "Project Scope", "info": "Adding features to an existing app" },
+      { "tag__name": "Tools", "info": "Figma, Adobe Illustrator, InVision, Zeplin" },
+      { "tag__name": "Duration", "info": "2 Weeks (80 Hours)" }
+    ],
+    "project__overview": "enmo was founded in 2009 by two former college roommates who wanted a better way to pay each other back. What started off as a simple SMS platform to send and receive money has evolved into a social payments app allowing people to split bills, pay each other back for rent, and make purchases at approved merchants.",
+    "objectives": "Design a new personal finance management feature that embeds within the current Venmo app and in the operating system of your choice. Make sure it embeds well and smoothly with the rest of the app."
+  }
+]
