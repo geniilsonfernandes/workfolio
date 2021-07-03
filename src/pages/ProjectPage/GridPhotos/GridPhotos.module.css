@@ -1,7 +1,7 @@
 .cover img {
-    height: 465px;
     width: 100%;
     object-fit: cover;
+    border-radius: var(--border-radios);
 }
 .legend {
     display: flex;
@@ -34,9 +34,8 @@
     object-fit: cover;
 }
 
-
 @media screen and (max-width: 746px) {
     .galery {
-        grid-template-columns: repeat(1, 1fr); 
+        grid-template-columns: repeat(1, 1fr);
     }
 }

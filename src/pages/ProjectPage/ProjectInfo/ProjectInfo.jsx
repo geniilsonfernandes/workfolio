@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./ProjectInfo.module.css";
-import date from "../../../json/portfolio.json";
-import SimpleButton from './../../../components/Buttons/SimpleButton/SimpleButton';
+import SimpleButton from "./../../../components/Buttons/SimpleButton/SimpleButton";
 
 const Overview = ({ name, overview }) => {
   return (
@@ -21,18 +20,15 @@ const Tag = ({ tagName, info }) => {
   );
 };
 
-
-
-const ProjectInfo = () => {
-  const { project__overview, objectives, tags } = date[0];
-
+const ProjectInfo = (props) => {
+  const { project__overview, objectives, tags, url } = props;
   return (
     <>
       <div className={styles.project}>
         <div className={styles.left}>
           <div className={styles.project__info}>
-            <Overview name="Project Overview" overview={project__overview} />
-            <Overview name="Objectives" overview={objectives} />
+            <Overview name="Descrição" overview={project__overview} />
+            <Overview name="Objetivo" overview={objectives} />
           </div>
         </div>
         <div className={styles.right}>
@@ -44,7 +40,9 @@ const ProjectInfo = () => {
         </div>
       </div>
       <div className={styles.btn}>
-        <a href="https://play.google.com/books/uploads/ebooks;Nf=preserve"><SimpleButton>Ver ao vivo</SimpleButton> </a>
+        <a href={url} target="_blank" rel="noreferrer">
+          <SimpleButton>Ver ao vivo</SimpleButton>{" "}
+        </a>
       </div>
     </>
   );

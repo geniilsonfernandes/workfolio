@@ -1,11 +1,11 @@
 import React from "react";
 
-import style from './Projectname.module.css'
-const ProjectName = () => {
+import style from "./Projectname.module.css";
+const ProjectName = ({ name, subName }) => {
   return (
     <header className={style.project__name}>
-      <h1>Komegashi Too</h1>
-      <p>Responsive Website Design for a Local Japanese Restaurant</p>
+      <h1>{name}</h1>
+      <p>{subName}</p>
     </header>
   );
 };

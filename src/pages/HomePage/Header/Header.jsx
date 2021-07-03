@@ -1,6 +1,5 @@
 import React from "react";
 import Container from "../../../components/layout/Container";
-import SimpleButton from "../../../components/Buttons/SimpleButton/SimpleButton";
 //css
 import styles from "./Header.module.css";
 const Header = () => {
@@ -9,16 +8,10 @@ const Header = () => {
       <header className={styles.header}>
         <div className={styles.header__content}>
           <h1>
-            Hey, I'm Front End <br />
+            Hey, I'm Ge Front End <br />
             <span> {`<`}</span>Developer <span>{`/>`}</span>.
           </h1>
-          <p>
-            Hi, G I'm \\ a freelance web designer from San-Francisco. I help brands turn their ideas into high quality
-            products.
-          </p>
-        </div>
-        <div className={styles.btn__group}>
-          <SimpleButton>Veja meus trabalhos!</SimpleButton>
+          <p>Sou um Designer-UI/Front end criativo e corajoso para novos desafios.</p>
         </div>
       </header>
     </Container>

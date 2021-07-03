@@ -31,12 +31,16 @@ const NavMenu = () => {
             </NavLink>
           </div>
           <div className={styles.social__links}>
-            <IconButton>
-              <InstagramIcon />
-            </IconButton>
-            <IconButton>
-              <LinkdinIcon />
-            </IconButton>
+            <a href="https://www.instagram.com/geecods/">
+              <IconButton>
+                <InstagramIcon />
+              </IconButton>
+            </a>
+            <a href="https://www.linkedin.com/in/genilson-fernandes-4a5702122/">
+              <IconButton>
+                <LinkdinIcon />
+              </IconButton>
+            </a>
           </div>
         </div>
         <div className={styles.menu__btn} onClick={() => setIsOpen(!isOpen)}>

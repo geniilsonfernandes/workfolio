@@ -1,15 +1,62 @@
 [
   {
-    "cover_photo":"dfsfsdfs",
-    "content_photo":"weqeweq",
-    "name": "Komegashi Too",
-    "sub_name":"dsadadas",
+    "id":"1",
+    "cover_photo":"./img/projeto__colorise__cover.png",
+    "content_photo":"img/projeto__colorise__content.png",
+    "name": "Colorise App",
+    "sub_name":"Colorise App é um pequeno acervo de paletas de cores",
     "tags": [
-      { "tag__name": "Project Scope", "info": "Adding features to an existing app" },
-      { "tag__name": "Tools", "info": "Figma, Adobe Illustrator, InVision, Zeplin" },
-      { "tag__name": "Duration", "info": "2 Weeks (80 Hours)" }
+      { "tag__name": "Projeto", "info": "Colorise" },
+      { "tag__name": "Ferramentas", "info": "Figma, Adobe Illustrator, VsCode" },
+      { "tag__name": "Duração", "info": "2 semanas" }
     ],
-    "project__overview": "enmo was founded in 2009 by two former college roommates who wanted a better way to pay each other back. What started off as a simple SMS platform to send and receive money has evolved into a social payments app allowing people to split bills, pay each other back for rent, and make purchases at approved merchants.",
-    "objectives": "Design a new personal finance management feature that embeds within the current Venmo app and in the operating system of your choice. Make sure it embeds well and smoothly with the rest of the app."
+    "url": "https://color-palette-9hm617en6-geniilsonfernandes.vercel.app/",
+    "project__overview": "Colorise App é um pequeno acervo de paletas de cores, Usuário pode salvar e remover as paletas de cores favoritas, copiar o código de cor passando com mouse sobre ela e Usuário pode salvar a paleta de cores em um svg.",
+    "objectives": "Projeto para estudo de react js, objetivo foi o estudo de criação de componentes e interação com o usuário."
+  },
+  {
+    "id":"2",
+    "cover_photo":"./img/projeto__dental__cover.png",
+    "content_photo":"img/projeto__dental__content.png",
+    "name": "Dental LD",
+    "sub_name":"Landing page para conversão de leads",
+    "tags": [
+      { "tag__name": "Projeto", "info": "Dental lD" },
+      { "tag__name": "Ferramentas", "info": "Figma, Adobe Illustrator, VsCode" },
+      { "tag__name": "Duração", "info": "2 DIAS" }
+    ],
+    "url": "https://dental-ld.netlify.app/",
+    "project__overview": "Projeto de uma landing page para a área de odontologia para conversão de leads",
+    "objectives": "A página feita em html/css e usando boas práticas de SEO"
+  },
+  {
+    "id":"3",
+    "cover_photo":"./img/projeto__epic__cover.png",
+    "content_photo":"img/projeto__epic__content.png",
+    "name": "Clone Slide Epic Games",
+    "sub_name":"projeto foi criar um slide parecido com o usado no site da epic games",
+    "tags": [
+      { "tag__name": "Projeto", "info": "Epic clone" },
+      { "tag__name": "Ferramentas", "info": "Figma, Adobe Photoshop, VsCode" },
+      { "tag__name": "Duração", "info": "1 DIAS" }
+    ],
+    "url": "https://dental-ld.netlify.app/",
+    "project__overview": "Slide clone epic games",
+    "objectives": "Projeto foi criar um slide parecido com o usado no site da epic games, feito em reactJS"
+  },
+  {
+    "id":"4",
+    "cover_photo":"./img/projeto__flex__cover.png",
+    "content_photo":"img/projeto__flex__content.png",
+    "name": "Flex LD",
+    "sub_name":"Landing page para conversão de leads",
+    "tags": [
+      { "tag__name": "Projeto", "info": "flex ld" },
+      { "tag__name": "Ferramentas", "info": "Figma, Adobe Photoshop, VsCode" },
+      { "tag__name": "Duração", "info": "3 DIAS" }
+    ],
+    "url": "https://epic-clone-slide.netlify.app/",
+    "project__overview": "Projeto para estudo",
+    "objectives": "A página feita em html/css e usando boas práticas de SEO"
   }
 ]
