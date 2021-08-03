@@ -1,10 +1,10 @@
 [
   {
-    "id":"1",
-    "cover_photo":"./img/projeto__colorise__cover.png",
-    "content_photo":"img/projeto__colorise__content.png",
+    "id": "1",
+    "cover_photo": "./img/projeto__colorise__cover.png",
+    "content_photo": "img/projeto__colorise__content.png",
     "name": "Colorise App",
-    "sub_name":"Colorise App é um pequeno acervo de paletas de cores",
+    "sub_name": "Colorise App é um pequeno acervo de paletas de cores",
     "tags": [
       { "tag__name": "Projeto", "info": "Colorise" },
       { "tag__name": "Ferramentas", "info": "Figma, Adobe Illustrator, VsCode" },
@@ -15,11 +15,11 @@
     "objectives": "Projeto para estudo de react js, objetivo foi o estudo de criação de componentes e interação com o usuário."
   },
   {
-    "id":"2",
-    "cover_photo":"./img/projeto__dental__cover.png",
-    "content_photo":"img/projeto__dental__content.png",
+    "id": "2",
+    "cover_photo": "./img/projeto__dental__cover.png",
+    "content_photo": "img/projeto__dental__content.png",
     "name": "Dental LD",
-    "sub_name":"Landing page para conversão de leads",
+    "sub_name": "Landing page para conversão de leads",
     "tags": [
       { "tag__name": "Projeto", "info": "Dental lD" },
       { "tag__name": "Ferramentas", "info": "Figma, Adobe Illustrator, VsCode" },
@@ -30,11 +30,11 @@
     "objectives": "A página feita em html/css e usando boas práticas de SEO"
   },
   {
-    "id":"3",
-    "cover_photo":"./img/projeto__epic__cover.png",
-    "content_photo":"img/projeto__epic__content.png",
+    "id": "3",
+    "cover_photo": "./img/projeto__epic__cover.png",
+    "content_photo": "img/projeto__epic__content.png",
     "name": "Clone Slide Epic Games",
-    "sub_name":"projeto foi criar um slide parecido com o usado no site da epic games",
+    "sub_name": "projeto foi criar um slide parecido com o usado no site da epic games",
     "tags": [
       { "tag__name": "Projeto", "info": "Epic clone" },
       { "tag__name": "Ferramentas", "info": "Figma, Adobe Photoshop, VsCode" },
@@ -45,11 +45,11 @@
     "objectives": "Projeto foi criar um slide parecido com o usado no site da epic games, feito em reactJS"
   },
   {
-    "id":"4",
-    "cover_photo":"./img/projeto__flex__cover.png",
-    "content_photo":"img/projeto__flex__content.png",
+    "id": "4",
+    "cover_photo": "./img/projeto__flex__cover.png",
+    "content_photo": "img/projeto__flex__content.png",
     "name": "Flex LD",
-    "sub_name":"Landing page para conversão de leads",
+    "sub_name": "Landing page para conversão de leads",
     "tags": [
       { "tag__name": "Projeto", "info": "flex ld" },
       { "tag__name": "Ferramentas", "info": "Figma, Adobe Photoshop, VsCode" },
@@ -58,5 +58,20 @@
     "url": "https://epic-clone-slide.netlify.app/",
     "project__overview": "Projeto para estudo",
     "objectives": "A página feita em html/css e usando boas práticas de SEO"
+  },
+  {
+    "id": "5",
+    "cover_photo": "./img/projeto__todon__cover.png",
+    "content_photo": "img/projeto__todon__content.png",
+    "name": "Todon Task",
+    "sub_name": "Aplicativo de gerenciado de tarefas",
+    "tags": [
+      { "tag__name": "Projeto", "info": "Todon Task" },
+      { "tag__name": "Ferramentas", "info": "Figma, Adobe Photoshop, VsCode" },
+      { "tag__name": "Duração", "info": "1 Semana" }
+    ],
+    "url": "https://todon.vercel.app/",
+    "project__overview": "Projeto para estudo",
+    "objectives": "Projeto para estudo de react js, objetivo é testar minhas habilidades com a ferramenta em criação de componentes e interação com o usuário"
   }
 ]
