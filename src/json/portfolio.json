@@ -1,5 +1,20 @@
 [
   {
+    "id": "5",
+    "cover_photo": "./img/projeto__todon__cover.png",
+    "content_photo": "img/projeto__todon__content.png",
+    "name": "Todon Task",
+    "sub_name": "Aplicativo de gerenciado de tarefas",
+    "tags": [
+      { "tag__name": "Projeto", "info": "Todon Task" },
+      { "tag__name": "Ferramentas", "info": "Figma, Adobe Photoshop, VsCode" },
+      { "tag__name": "Duração", "info": "1 Semana" }
+    ],
+    "url": "https://todon.vercel.app/",
+    "project__overview": "Projeto para estudo",
+    "objectives": "Projeto para estudo de react js, objetivo é testar minhas habilidades com a ferramenta em criação de componentes e interação com o usuário"
+  },
+  {
     "id": "1",
     "cover_photo": "./img/projeto__colorise__cover.png",
     "content_photo": "img/projeto__colorise__content.png",
@@ -58,20 +73,5 @@
     "url": "https://epic-clone-slide.netlify.app/",
     "project__overview": "Projeto para estudo",
     "objectives": "A página feita em html/css e usando boas práticas de SEO"
-  },
-  {
-    "id": "5",
-    "cover_photo": "./img/projeto__todon__cover.png",
-    "content_photo": "img/projeto__todon__content.png",
-    "name": "Todon Task",
-    "sub_name": "Aplicativo de gerenciado de tarefas",
-    "tags": [
-      { "tag__name": "Projeto", "info": "Todon Task" },
-      { "tag__name": "Ferramentas", "info": "Figma, Adobe Photoshop, VsCode" },
-      { "tag__name": "Duração", "info": "1 Semana" }
-    ],
-    "url": "https://todon.vercel.app/",
-    "project__overview": "Projeto para estudo",
-    "objectives": "Projeto para estudo de react js, objetivo é testar minhas habilidades com a ferramenta em criação de componentes e interação com o usuário"
   }
 ]
