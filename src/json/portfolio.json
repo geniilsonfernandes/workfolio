@@ -31,6 +31,21 @@
   },
   {
     "id": "2",
+    "cover_photo": "./img/projeto__remote__cover.png",
+    "content_photo": "img/projeto__remote__content.png",
+    "name": "Remote jobs",
+    "sub_name": "plataforma de busca de empregos ",
+    "tags": [
+      { "tag__name": "Projeto", "info": "Remote jobs" },
+      { "tag__name": "Ferramentas", "info": "Figma, Adobe Illustrator, VsCode, React js" },
+      { "tag__name": "Duração", "info": "2 DIAS" }
+    ],
+    "url": "https://remote-jobs-ld.netlify.app/",
+    "project__overview": "projeto de home page de uma plataforma de busca de empregos ",
+    "objectives": "projeto de home page de uma plataforma de busca de empregos "
+  },
+  {
+    "id": "24",
     "cover_photo": "./img/projeto__dental__cover.png",
     "content_photo": "img/projeto__dental__content.png",
     "name": "Dental LD",
@@ -55,7 +70,7 @@
       { "tag__name": "Ferramentas", "info": "Figma, Adobe Photoshop, VsCode" },
       { "tag__name": "Duração", "info": "1 DIAS" }
     ],
-    "url": "https://dental-ld.netlify.app/",
+    "url": "https://epic-clone-slide.netlify.app/",
     "project__overview": "Slide clone epic games",
     "objectives": "Projeto foi criar um slide parecido com o usado no site da epic games, feito em reactJS"
   },
@@ -70,7 +85,7 @@
       { "tag__name": "Ferramentas", "info": "Figma, Adobe Photoshop, VsCode" },
       { "tag__name": "Duração", "info": "3 DIAS" }
     ],
-    "url": "https://epic-clone-slide.netlify.app/",
+    "url": "https://landing-page-flex.netlify.app/",
     "project__overview": "Projeto para estudo",
     "objectives": "A página feita em html/css e usando boas práticas de SEO"
   }
