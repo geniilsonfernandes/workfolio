@@ -20,7 +20,7 @@ const NavMenu = () => {
         <div className={`${styles.menu__container} ${isOpen && styles.active}`}>
           <div className={styles.email}>
             <MessageIcon />
-            genilsonspace@gmail.com
+            geniilsonfernandes@gmail.com
           </div>
           <div className={styles.nav__links}>
             <NavLink to="/" activeClassName={styles.link__active} end>
@@ -36,7 +36,7 @@ const NavMenu = () => {
                 <InstagramIcon />
               </IconButton>
             </a>
-            <a href="https://www.linkedin.com/in/genilson-fernandes-4a5702122/">
+            <a href="https://www.linkedin.com/in/genilson-fernandes/">
               <IconButton>
                 <LinkdinIcon />
               </IconButton>

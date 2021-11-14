@@ -15,14 +15,14 @@ const ContactBtn = () => {
           </a>
         </div>
         <div className={style.icon}>
-          <a href="https://www.linkedin.com/in/genilson-fernandes-4a5702122/">
+          <a href="https://www.linkedin.com/in/genilson-fernandes/">
             <IconButton>
               <LinkdinIcon />
             </IconButton>
           </a>
         </div>
       </div>
-      <a href="https://drive.google.com/file/d/1TM65cvwA3HYEudSzCvisgAFqg385cDjY/view?usp=sharing" target="_blank" rel="noreferrer">
+      <a href="https://www.figma.com/file/wcIrNZcWWMqLYn7Ujwxd8Z/Genilson---cv?node-id=0%3A1" target="_blank" rel="noreferrer">
         <SimpleButton> Donwload CV</SimpleButton>
       </a>
     </div>
